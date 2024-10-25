@@ -1,0 +1,90 @@
+**{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* ---------- VARIAVEIS ---------- */
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+
+
+/* ----------- MAIN ------------- */
+
+.main{
+    width: 100%;
+}
+
+
+/* ------------ HEADER ------------ */
+
+.header{
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+
+/* ---------- PRODUTOS ---------- */
+
+.produtos-container{
+    width: 100%;
+    background-color: var(--blue);
+}
+
+
+/* ---------- FORMULARIO ---------- */
+
+.form-container{
+    margin: auto;
+    border-radius: 5px;
+    width: 400px;
+    padding: 15px;
+    background-color: var(--blue);
+}
+
+input[type="text"]{
+    border-radius: 3px;
+    border: none;
+    padding: 6px;
+}
+
+input[type="email"]{
+    border-radius: 3px;
+    border: none;
+    padding: 6px;
+}
+
+input[type="password"]{
+    border-radius: 3px;
+    border: none;
+    padding: 6px;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: aquamarine;
+}
+
+
+/* -------- FOOTER -------- */
+.footer{
+    height: 200px;
+}
+
+
+/* --------- RESPONSIVO ----------- */
+@media screen and (max-width: 900px){
+    
+}
+
